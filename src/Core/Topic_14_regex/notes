@@ -1,0 +1,30 @@
+
+==== character classes =====
+
+[abc]         -> either a or b or c
+[^abc]        -> except a  , b and c
+[a-z]         -> any lower case alphabet symbol
+[A-Z]         -> any upper case alphabet symbol
+[a-zA-Z]      -> any alphabet symbol
+[0-9]         -> any digit from 0 to 9
+[a-zA-Z0-9]   -> Any alphanumeric character
+[^a-zA-Z0-9]  -> except alphanumeric character (special character)
+
+
+==== pre defined character classes =====
+
+\\s  for searching space
+\\S  except spaces
+\\d  any digit front [0-9]
+\\D  except digit any character [a-zA-Z]
+\\w  any word character from [a-zA-Z0-9]
+\\W  except character (special character)
+
+==== quantifiers =====
+  we can use to specify the number of occurrences to match
+
+  a   -> exactly one match
+  a+  -> atleast one a
+  a?  -> atmost one a
+
+
