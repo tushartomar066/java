@@ -1,10 +1,10 @@
 package DSA.Heaps;
 
-class minheap {
+class MinHeap {
     int[] arr;
     int size;
 
-    minheap(int x) {
+    MinHeap(int x) {
         this.arr = new int[x];
         this.size = 0;
     }
@@ -12,8 +12,8 @@ class minheap {
 
 }
 
-public class mainheap {
+public class MainHeap {
     public static void main(String[] args) {
-        minheap mh = new minheap(10);
+        MinHeap mh = new MinHeap(10);
     }
 }
